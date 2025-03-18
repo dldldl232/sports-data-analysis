@@ -9,3 +9,53 @@ collection_timestamp,event_id,event_name,event_date,team1,score1,team2,score2
 2025-03-18 01:47:22,401705558,Memphis Grizzlies at Sacramento Kings,2025-03-18T02:00Z,Sacramento Kings,0,Memphis Grizzlies,0
 2025-03-18 01:47:22,401705561,Washington Wizards at Portland Trail Blazers,2025-03-18T02:00Z,Portland Trail Blazers,0,Washington Wizards,0
 2025-03-18 01:47:22,401754705,San Antonio Spurs at Los Angeles Lakers,2025-03-18T02:30Z,Los Angeles Lakers,0,San Antonio Spurs,0
+2025-03-18 01:58:30,401705550,Miami Heat at New York Knicks,2025-03-17T23:30Z,New York Knicks,109,Miami Heat,84
+2025-03-18 01:58:30,401705551,Philadelphia 76ers at Houston Rockets,2025-03-18T00:00Z,Houston Rockets,102,Philadelphia 76ers,112
+2025-03-18 01:58:30,401705552,Indiana Pacers at Minnesota Timberwolves,2025-03-18T00:00Z,Minnesota Timberwolves,87,Indiana Pacers,89
+2025-03-18 01:58:30,401705553,Detroit Pistons at New Orleans Pelicans,2025-03-18T00:00Z,New Orleans Pelicans,63,Detroit Pistons,90
+2025-03-18 01:58:30,401705555,Chicago Bulls at Utah Jazz,2025-03-18T01:00Z,Utah Jazz,44,Chicago Bulls,45
+2025-03-18 01:58:30,401705556,Denver Nuggets at Golden State Warriors,2025-03-18T02:00Z,Golden State Warriors,0,Denver Nuggets,0
+2025-03-18 01:58:30,401705557,Toronto Raptors at Phoenix Suns,2025-03-18T02:00Z,Phoenix Suns,0,Toronto Raptors,0
+2025-03-18 01:58:30,401705558,Memphis Grizzlies at Sacramento Kings,2025-03-18T02:00Z,Sacramento Kings,0,Memphis Grizzlies,0
+2025-03-18 01:58:30,401705561,Washington Wizards at Portland Trail Blazers,2025-03-18T02:00Z,Portland Trail Blazers,0,Washington Wizards,0
+2025-03-18 01:58:30,401754705,San Antonio Spurs at Los Angeles Lakers,2025-03-18T02:30Z,Los Angeles Lakers,0,San Antonio Spurs,0
+2025-03-18 02:03:44,401705550,Miami Heat at New York Knicks,2025-03-17T23:30Z,New York Knicks,116,Miami Heat,95
+2025-03-18 02:03:44,401705551,Philadelphia 76ers at Houston Rockets,2025-03-18T00:00Z,Houston Rockets,113,Philadelphia 76ers,118
+2025-03-18 02:03:44,401705552,Indiana Pacers at Minnesota Timberwolves,2025-03-18T00:00Z,Minnesota Timberwolves,94,Indiana Pacers,89
+2025-03-18 02:03:44,401705553,Detroit Pistons at New Orleans Pelicans,2025-03-18T00:00Z,New Orleans Pelicans,70,Detroit Pistons,100
+2025-03-18 02:03:44,401705555,Chicago Bulls at Utah Jazz,2025-03-18T01:00Z,Utah Jazz,48,Chicago Bulls,46
+2025-03-18 02:03:44,401705556,Denver Nuggets at Golden State Warriors,2025-03-18T02:00Z,Golden State Warriors,0,Denver Nuggets,0
+2025-03-18 02:03:44,401705557,Toronto Raptors at Phoenix Suns,2025-03-18T02:00Z,Phoenix Suns,0,Toronto Raptors,0
+2025-03-18 02:03:44,401705558,Memphis Grizzlies at Sacramento Kings,2025-03-18T02:00Z,Sacramento Kings,0,Memphis Grizzlies,0
+2025-03-18 02:03:44,401705561,Washington Wizards at Portland Trail Blazers,2025-03-18T02:00Z,Portland Trail Blazers,0,Washington Wizards,0
+2025-03-18 02:03:44,401754705,San Antonio Spurs at Los Angeles Lakers,2025-03-18T02:30Z,Los Angeles Lakers,0,San Antonio Spurs,0
+2025-03-18 02:20:13,401705550,Miami Heat at New York Knicks,2025-03-17T23:30Z,New York Knicks,116,Miami Heat,95
+2025-03-18 02:20:13,401705551,Philadelphia 76ers at Houston Rockets,2025-03-18T00:00Z,Houston Rockets,121,Philadelphia 76ers,125
+2025-03-18 02:20:13,401705552,Indiana Pacers at Minnesota Timberwolves,2025-03-18T00:00Z,Minnesota Timberwolves,102,Indiana Pacers,101
+2025-03-18 02:20:13,401705553,Detroit Pistons at New Orleans Pelicans,2025-03-18T00:00Z,New Orleans Pelicans,81,Detroit Pistons,123
+2025-03-18 02:20:13,401705555,Chicago Bulls at Utah Jazz,2025-03-18T01:00Z,Utah Jazz,53,Chicago Bulls,54
+2025-03-18 02:20:13,401705556,Denver Nuggets at Golden State Warriors,2025-03-18T02:00Z,Golden State Warriors,8,Denver Nuggets,15
+2025-03-18 02:20:13,401705557,Toronto Raptors at Phoenix Suns,2025-03-18T02:00Z,Phoenix Suns,13,Toronto Raptors,17
+2025-03-18 02:20:13,401705558,Memphis Grizzlies at Sacramento Kings,2025-03-18T02:00Z,Sacramento Kings,17,Memphis Grizzlies,16
+2025-03-18 02:20:13,401705561,Washington Wizards at Portland Trail Blazers,2025-03-18T02:00Z,Portland Trail Blazers,11,Washington Wizards,14
+2025-03-18 02:20:13,401754705,San Antonio Spurs at Los Angeles Lakers,2025-03-18T02:30Z,Los Angeles Lakers,0,San Antonio Spurs,0
+2025-03-18 02:20:15,401705550,Miami Heat at New York Knicks,2025-03-17T23:30Z,New York Knicks,116,Miami Heat,95
+2025-03-18 02:20:15,401705551,Philadelphia 76ers at Houston Rockets,2025-03-18T00:00Z,Houston Rockets,121,Philadelphia 76ers,125
+2025-03-18 02:20:15,401705552,Indiana Pacers at Minnesota Timberwolves,2025-03-18T00:00Z,Minnesota Timberwolves,102,Indiana Pacers,101
+2025-03-18 02:20:15,401705553,Detroit Pistons at New Orleans Pelicans,2025-03-18T00:00Z,New Orleans Pelicans,81,Detroit Pistons,123
+2025-03-18 02:20:15,401705555,Chicago Bulls at Utah Jazz,2025-03-18T01:00Z,Utah Jazz,53,Chicago Bulls,54
+2025-03-18 02:20:15,401705556,Denver Nuggets at Golden State Warriors,2025-03-18T02:00Z,Golden State Warriors,8,Denver Nuggets,15
+2025-03-18 02:20:15,401705557,Toronto Raptors at Phoenix Suns,2025-03-18T02:00Z,Phoenix Suns,13,Toronto Raptors,17
+2025-03-18 02:20:15,401705558,Memphis Grizzlies at Sacramento Kings,2025-03-18T02:00Z,Sacramento Kings,17,Memphis Grizzlies,16
+2025-03-18 02:20:15,401705561,Washington Wizards at Portland Trail Blazers,2025-03-18T02:00Z,Portland Trail Blazers,11,Washington Wizards,14
+2025-03-18 02:20:15,401754705,San Antonio Spurs at Los Angeles Lakers,2025-03-18T02:30Z,Los Angeles Lakers,0,San Antonio Spurs,0
+2025-03-18 02:22:16,401705550,Miami Heat at New York Knicks,2025-03-17T23:30Z,New York Knicks,116,Miami Heat,95
+2025-03-18 02:22:16,401705551,Philadelphia 76ers at Houston Rockets,2025-03-18T00:00Z,Houston Rockets,121,Philadelphia 76ers,125
+2025-03-18 02:22:16,401705552,Indiana Pacers at Minnesota Timberwolves,2025-03-18T00:00Z,Minnesota Timberwolves,107,Indiana Pacers,103
+2025-03-18 02:22:16,401705553,Detroit Pistons at New Orleans Pelicans,2025-03-18T00:00Z,New Orleans Pelicans,81,Detroit Pistons,125
+2025-03-18 02:22:16,401705555,Chicago Bulls at Utah Jazz,2025-03-18T01:00Z,Utah Jazz,56,Chicago Bulls,57
+2025-03-18 02:22:16,401705556,Denver Nuggets at Golden State Warriors,2025-03-18T02:00Z,Golden State Warriors,8,Denver Nuggets,15
+2025-03-18 02:22:16,401705557,Toronto Raptors at Phoenix Suns,2025-03-18T02:00Z,Phoenix Suns,13,Toronto Raptors,17
+2025-03-18 02:22:16,401705558,Memphis Grizzlies at Sacramento Kings,2025-03-18T02:00Z,Sacramento Kings,18,Memphis Grizzlies,16
+2025-03-18 02:22:16,401705561,Washington Wizards at Portland Trail Blazers,2025-03-18T02:00Z,Portland Trail Blazers,11,Washington Wizards,14
+2025-03-18 02:22:16,401754705,San Antonio Spurs at Los Angeles Lakers,2025-03-18T02:30Z,Los Angeles Lakers,0,San Antonio Spurs,0
