@@ -1,7 +1,9 @@
 import requests
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, UTC
 import os
+import schedule
+import time
 
 
 def collect_espn_data():
@@ -14,12 +16,12 @@ def collect_espn_data():
         print(f"Failed to fetch data: {response.status_code}")
         return None
 
-    data = response.json()
-    events = data.get("events", [])
+    data_espn = response.json()
+    events = data_espn.get("events", [])
 
     collected = []
     # Record the collection timestamp
-    collection_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+    collection_time = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
 
     # Loop over each event and extract details
     for event in events:
@@ -29,6 +31,8 @@ def collect_espn_data():
 
         # Initialize default values for teams and scores
         team1 = team2 = score1 = score2 = ""
+        team1_leaders = {"points": "", "rebounds": "", "assists": ""}
+        team2_leaders = {"points": "", "rebounds": "", "assists": ""}
 
         competitions = event.get("competitions", [])
         if competitions:
@@ -40,24 +44,49 @@ def collect_espn_data():
                 score1 = competitors[0].get("score", "")
                 score2 = competitors[1].get("score", "")
 
-        # Append extracted data along with the collection timestamp
-        collected.append({
-            "collection_timestamp": collection_time,
-            "event_id": event_id,
-            "event_name": event_name,
-            "event_date": event_date,
-            "team1": team1,
-            "score1": score1,
-            "team2": team2,
-            "score2": score2
-        })
+            leaders = competition.get("leaders", [])
+            print(f"Leaders: {leaders}")
+
+            player_leaders = {}
+            for leader in leaders:
+                category = leader.get("name", "")
+                print(f"Processing leader category: {category}")  # Debugging print
+                print(f"Leader object: {leader}")
+
+                if "leaders" in leader:
+                    print(f"Leaders found in category {category}: {leader['leaders']}")  # Debugging print
+                else:
+                    print(f"No 'leaders' key found in category {category}")
+
+                top_player = leader.get("leaders", [])[0] if leader.get("leaders") else None
+                print(f"Top player: {top_player}")  # Debugging print
+
+                if top_player:
+                    player_name = top_player["athlete"].get("displayName")
+                    player_stat = top_player.get("displayValue", "")
+                    player_leaders[category] = f"{player_name}: {player_stat}"
+
+                # Append extracted data along with the collection timestamp
+            collected.append({
+                "collection_timestamp": collection_time,
+                "event_id": event_id,
+                "event_name": event_name,
+                "event_date": event_date,
+                "team1": team1,
+                "score1": score1,
+                "team2": team2,
+                "score2": score2,
+                "top_scorer": player_leaders.get("points", ""),
+                "top_rebounder": player_leaders.get("rebounds", ""),
+                "top_assist": player_leaders.get("assists", "")
+            })
 
     return collected
 
 
-def save_data_to_csv(data, filename="collected_espn_data.csv"):
+def save_data_to_csv(data_espn, filename="collected_espn_data_player_include.csv"):
     # Create a new DataFrame from collected data
-    df_new = pd.DataFrame(data)
+    df_new = pd.DataFrame(data_espn)
 
     # If the CSV file already exists, append the new data
     if os.path.exists(filename):
@@ -74,6 +103,7 @@ def save_data_to_csv(data, filename="collected_espn_data.csv"):
 if __name__ == "__main__":
     data = collect_espn_data()
     if data:
+        print(f"Fetched {len(data)} games.")
         save_data_to_csv(data)
     else:
         print("No data collected.")
